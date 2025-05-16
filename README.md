@@ -6,9 +6,6 @@ Detailed introduction and video:
         
 
 # ABAQUS Cohesive Element Insertion Plugin V3.1  
-## User Manual  
-
----
 
 ## Table of Contents
 1. [Plugin Introduction](#1-plugin-introduction)  
@@ -36,7 +33,7 @@ Detailed introduction and video:
 Cohesive Insertion is a Python-based ABAQUS plugin designed to embed cohesive elements within finite element solid meshes. It simulates complex mechanical behaviors such as multi-crack initiation and propagation in materials or structures. The plugin enables global or local insertion of zero-thickness/thickness cohesive elements in existing 2D/3D finite element meshes, significantly reducing modeling difficulty and improving efficiency. It is particularly valuable for numerical simulations in composite materials research.  
 
 **Supported ABAQUS Versions:** 6.14 to 2023.  
-
+**Supported ABAQUS Versions:** 2024 or higher.  
 ---
 
 ## 2. Main Features and Functions  
@@ -55,10 +52,16 @@ Cohesive Insertion is a Python-based ABAQUS plugin designed to embed cohesive el
 
 ## 3. Plugin Installation and Usage  
 ### 3.1 Plugin Installation  
-1. Extract the plugin package to a folder.  
+1. Extract the plugin package to a folder.
+![image](https://github.com/user-attachments/assets/24833c24-bcee-4c8b-abe0-1b646c9d645b)
+
 2. Copy the folder `Cohesive Insertion (V3.1)` to one of these paths (choose only one):  
-   - ABAQUS plugin installation path (e.g., for 2022: `C:\Users\[User]\abaqus_plugins`).  
-   - ABAQUS default plugin path (e.g., `C:\SIMULIA\CAE\2022\win_b64\code\plugins`).  
+   - ABAQUS plugin installation path (e.g., for 2022: `C:\Users\[User]\abaqus_plugins`).
+![image](https://github.com/user-attachments/assets/40ef16ce-1316-46fb-b79a-aa91851b01ee)
+
+   - ABAQUS default plugin path (e.g., `C:\SIMULIA\CAE\2022\win_b64\code\plugins`).
+![image](https://github.com/user-attachments/assets/cf6f00fd-ca38-4a1d-a6ff-253d389a6211)
+
 3. Restart ABAQUS. The plugin will appear under `Plug-ins > Cohesive Insertion V3.1`.  
 
 ### 3.2 Plugin Interface  
