@@ -2,7 +2,7 @@
 
 # Notes：
 #            Cohesive Insertion V3.1 for ABAQUS 2023 and older
-#            Cohesive Inerstion V4.1 for ABAQUS 2024 and later
+#            Cohesive Insertion V4.1 for ABAQUS 2024 and later
 
 Detailed introduction and video:
         https://abaquscohesiveelementplugin.quora.com/An-ABAQUS-Plug-in-for-Generating-Cohesive-Elements
